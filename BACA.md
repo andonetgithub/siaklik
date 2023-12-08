@@ -5,22 +5,22 @@
 ![MySQL](https://img.shields.io/badge/-MySQL-light.svg?style=flat&logo=mysql&logoColor=white&color=FF4500)
 
 # SIAKLIK
-We worked on this PKL from 2020 to 2021. The results of the PKL are in the form of a Clinical Service System Website. This was made as an effort to fulfill the requirements for an undergraduate degree. This project is closely related to the UPN Veteran East Java Health Clinic, where the website developed takes into account the phenomena in the field. To find out the extent of the quality of this website, a validation test is carried out, this uses the Blackbox Testing method. 
+PKL ini kami kerjakan dari tahun 2020 hingga 2021. Hasil dari PKL tersebut berupa Website Sistem Pelayanan Klinik. Hal ini dibuat sebagai upaya untuk memenuhi syarat kelulusan S1. Proyek ini sangat erat kaitannya dengan Klinik Kesehatan UPN Veteran Jawa Timur, dimana website yang dikembangkan memperhatikan fenomena yang ada di lapangan. Untuk mengetahui sejauh mana kualitas dari website ini, maka dilakukan uji validasi, hal ini menggunakan metode Blackbox Testing.
 
 <br><br>
 
-## Features / Framework / Tools
-| Part | Description |
+## Fitur / Kerangka Kerja / Peralatan
+| Bagian | Deskripsi |
 | --- | --- |
-| Features | Login, Register, Queue, Export, Graph, Pagination, Search, Create, Read, Update, Delete, Captcha, Access Rights, ETC  |
-| Code | PHP, HTML, CSS, JS, SQL |
-| Framework | Bootstrap 4 |
-| Tools | Visual Studio Code, XAMPP (PHP Version 5+) |
+| Fitur | Masuk, Pendaftaran, Antrian, Ekspor, Grafik, Paginasi, Pencarian, Buat, Baca, Perbarui, Hapus, Captcha, Hak Akses, DLL  |
+| Kode | PHP, HTML, CSS, JS, SQL |
+| Kerangka Kerja | Bootstrap 4 |
+| Peralatan | Visual Studio Code, XAMPP (PHP Versi 5+) |
 
 <br><br>
 
-## Download & Install
-1.XAMPP with PHP version 7.4 :
+## Unduh & Instal
+1.XAMPP dengan PHP versi 7.4 :
 ```bash
 https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
 ```
@@ -31,42 +31,42 @@ https://code.visualstudio.com/docs/?dv=win
 
 <br><br>
 
-## Database
-1.Open XAMPP, then start the Apache & MySQL section. This aims to be able to support the website optimally.<br>
-2.Access the browser first in order to open the database admin panel, please copy the following link:
+## Basis data
+1.Buka XAMPP, lalu tekan tombol mulai di bagian Apache & MySQL. Hal ini bertujuan untuk dapat mendukung website secara optimal.<br>
+2.Akses peramban terlebih dahulu untuk membuka panel admin basis data, silakan salin tautan berikut:
 ```bash
 localhost/phpmyadmin/
 ```
-3.Create a database called "siaklik_db" on local.<br>
-4.Open the "siaklik_db" database and Import the database (siaklik_db.sql) in the SIAKLIK/database directory.
+3.Buat basis data bernama "siaklik_db" di lokal.<br>
+4.Buka basis data "siaklik_db" dan Impor basis data (siaklik_db.sql) di direktori SIAKLIK/database.
 
 <br><br>
 
-## Default Account
-| Role | Email | Password |
+## Akun Bawaan
+| Peran | Surel | Kata Sandi |
 | --- | --- | --- |
 | Admin | poliklinik@upnvjatim.ac.id | admin123 |
 | User | pasien@gmail.com | pasien123 |
 
 <br><br>
 
-## Running
-1.Download this repository.<br><br>
-2.Extract the downloaded file.<br><br>
-3.Move the "SIAKLIK" directory into the htdocs directory, whose details you can find out as follows:
+## Menjalankan
+1.Unduh repositori ini.<br><br>
+2.Ekstrak file yang diunduh.<br><br>
+3.Buka direktori "SIAKLIK" ke dalam direktori htdocs, yang rinciannya dapat Anda lihat sebagai berikut:
 ```bash
 C:\xampp\htdocs
 ```
-4.Please open your browser by writing:
+4.Silakan buka peramban Anda dengan menuliskan:
 ```bash
 localhost/SIAKLIK/
 ```
-5.Please login and access the features, enjoy [Done].
+5.Silakan masuk dan akses fitur-fiturnya, selamat menikmati [Selesai].
 
 <br><br>
 
-## Internship Team Members
-| NUMBER | FULL NAME | NPM | ROLE |
+## Anggota Tim Magang
+| NOMOR | NAMA LENGKAP | NPM | PERAN |
 | --- | --- | --- | --- |
 | 1 | Heri Khariono | 18081010002 | Frontend |
 | 2 | Devan Cakra Mudra Wijaya | 18081010013 | Frontend |
@@ -75,10 +75,10 @@ localhost/SIAKLIK/
 
 <br><br>
 
-## Highlights
+## Sorotan
 <table>
 <tr>
-<th colspan="3">Home</th>
+<th colspan="3">Beranda</th>
 </tr>
 <tr>
 <td width="280"><img src="https://github.com/devancakra/SIAKLIK/assets/54527592/42a7e44f-8059-469c-bb9c-cbb8126b8f5b" alt="header"></td>
@@ -88,9 +88,9 @@ localhost/SIAKLIK/
 </table>
 <table>
 <tr>
-<th width="280">General Poly</th>
-<th width="280">Dental Poly</th>
-<th width="280">Patient Information & Services</th>
+<th width="280">Poli Umum</th>
+<th width="280">Poli Gigi</th>
+<th width="280">Informasi & Layanan Pasien</th>
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/SIAKLIK/assets/54527592/165b9fe7-fd39-447d-bfb0-6c472d2c06a8" alt="poli-umum"></td>
@@ -100,7 +100,7 @@ localhost/SIAKLIK/
 </table>
 <table>
 <tr>
-<th colspan="2">Simple Laboratory</th>
+<th colspan="2">Laboratorium Sederhana</th>
 </tr>
 <tr>
 <td width="420"><img src="https://github.com/devancakra/SIAKLIK/assets/54527592/8c0cf3f1-f5bf-414e-a5e7-3c22255f6a94" alt="lab-sederhana-1"></td>
@@ -109,7 +109,7 @@ localhost/SIAKLIK/
 </table>
 <table>
 <tr>
-<th colspan="2">Tiered Referral</th>
+<th colspan="2">Rujukan Berjenjang</th>
 </tr>
 <tr>
 <td width="420"><img src="https://github.com/devancakra/SIAKLIK/assets/54527592/055f1dfa-e648-4024-ac95-7caa0987a381" alt="rujukan-1"></td>
@@ -118,7 +118,7 @@ localhost/SIAKLIK/
 </table>
 <table>
 <tr>
-<th colspan="3">Charts</th>
+<th colspan="3">Grafik</th>
 </tr>
 <tr>
 <td width="280"><img src="https://github.com/devancakra/SIAKLIK/assets/54527592/6e60f5b2-3be0-4c00-bad0-e377341ee6e4" alt="charts-1"></td>
@@ -128,7 +128,7 @@ localhost/SIAKLIK/
 </table>
 <table>
 <tr>
-<th colspan="2">Gallery</th>
+<th colspan="2">Galeri</th>
 </tr>
 <tr>
 <td width="420"><img src="https://github.com/devancakra/SIAKLIK/assets/54527592/81ce97d4-45c7-48b8-8e2e-be3adb10a28d" alt="gallery-1"></td>
@@ -137,8 +137,8 @@ localhost/SIAKLIK/
 </table>
 <table>
 <tr>
-<th width="420">Login</th>
-<th width="420">Register</th>
+<th width="420">Masuk</th>
+<th width="420">Pendaftaran</th>
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/SIAKLIK/assets/54527592/50a5d90a-0498-4965-affb-13eb682a77f2" alt="login">
@@ -148,7 +148,7 @@ localhost/SIAKLIK/
 </table>
 <table>
 <tr>
-<th colspan="3">Articles</th>
+<th colspan="3">Artikel-artikel</th>
 </tr>
 <tr>
 <td width="280"><img src="https://github.com/devancakra/SIAKLIK/assets/54527592/10a51026-c89d-4bb3-9516-48558311c0dd" alt="article-1"></td>
@@ -163,9 +163,9 @@ localhost/SIAKLIK/
 </table>
 <table>
 <tr>
-<th width="280">Admin Menu</th>
-<th width="280">Patient Data</th>
-<th width="280">Add Patient</th>
+<th width="280">Menu Admin</th>
+<th width="280">Data Pasien</th>
+<th width="280">Tambah Pasien</th>
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/SIAKLIK/assets/54527592/8bf109bc-c9f3-4a3d-9f91-ed3d34e5e4a0" alt="admin-menu"></td>
@@ -175,9 +175,9 @@ localhost/SIAKLIK/
 </table>
 <table>
 <tr>
-<th width="280">Search Patient</th>
-<th width="280">Update Patient</th>
-<th width="280">Delete Patient</th>
+<th width="280">Cari Pasien</th>
+<th width="280">Perbarui Pasien</th>
+<th width="280">Hapus Pasien</th>
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/SIAKLIK/assets/54527592/6c441fc8-f229-4db4-8f1e-1820411c63ee" alt="search-patient"></td>
@@ -187,9 +187,9 @@ localhost/SIAKLIK/
 </table>
 <table>
 <tr>
-<th width="280">Export PDF</th>
-<th width="280">Queue Data</th>
-<th width="280">Annual Chart</th>
+<th width="280">Ekspor PDF</th>
+<th width="280">Data Antrian</th>
+<th width="280">Grafik Tahunan</th>
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/SIAKLIK/assets/54527592/defae9ed-8fe9-4f94-8ddc-424996e6a036" alt="Export PDF"></td>
@@ -199,7 +199,7 @@ localhost/SIAKLIK/
 </table>
 <table>
 <tr>
-<th colspan="3">Patient Menu</th>
+<th colspan="3">Menu Pasien</th>
 </tr>
 <tr>
 <td width="280"><img src="https://github.com/devancakra/SIAKLIK/assets/54527592/da9f428c-1d3a-4628-8389-feb05e675f70" alt="antrian-bpjs-card"></td>
@@ -215,9 +215,9 @@ localhost/SIAKLIK/
 
 <br><br>
 
-## Reminder
-1.You can see the shortcomings of this website in the patient data update section. In that section, it still does not display the value obtained from the database, so it feels less user friendly.<br><br>
-2.If the database auto-increment is still not in order, then you can do the following in phpMyAdmin:<br>
+## Pengingat
+1.Anda dapat melihat kekurangan dari website ini pada bagian update data pasien. Pada bagian tersebut, masih belum menampilkan nilai yang didapat dari database, sehingga dirasa kurang nyaman bagi pengguna.<br><br>
+2.Jika penambahan otomatis basis data masih belum beres, maka Anda dapat melakukan hal berikut ini di phpMyAdmin:<br>
 
 ```bash
 SET  @num := 0;
@@ -227,11 +227,11 @@ ALTER TABLE your_table AUTO_INCREMENT =1;
 
 <br><br>
 
-## LICENSE
-MIT License - Copyright (c) 2021 - Devan C. M. Wijaya et al
+## LISENSI 
+LISENSI MIT - Hak Cipta (c) 2021 - Devan C. M. Wijaya dkk
 
-Permission is hereby granted without charge to any person obtaining a copy of this software and the software-related documentation files to deal in them without restriction, including without limitation the right to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons receiving the Software to be furnished therewith on the following terms:
+Dengan ini diberikan izin tanpa biaya kepada siapa pun yang mendapatkan salinan perangkat lunak ini dan file dokumentasi terkait perangkat lunak untuk menggunakannya tanpa batasan, termasuk namun tidak terbatas pada hak untuk menggunakan, menyalin, memodifikasi, menggabungkan, mempublikasikan, mendistribusikan, mensublisensikan, dan/atau menjual salinan Perangkat Lunak ini, dan mengizinkan orang yang menerima Perangkat Lunak ini untuk dilengkapi dengan persyaratan berikut:
 
-The above copyright notice and this permission notice must accompany all copies or substantial portions of the Software.
+Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus menyertai semua salinan atau bagian penting dari Perangkat Lunak.
 
-IN ANY EVENT, THE AUTHOR OR COPYRIGHT HOLDER HEREIN RETAINS FULL OWNERSHIP RIGHTS. THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, THEREFORE IF ANY DAMAGE, LOSS, OR OTHERWISE ARISES FROM THE USE OR OTHER DEALINGS IN THE SOFTWARE, THE AUTHOR OR COPYRIGHT HOLDER SHALL NOT BE LIABLE, AS THE USE OF THE SOFTWARE IS NOT COMPELLED AT ALL, SO THE RISK IS YOUR OWN.
+DALAM HAL APAPUN, PENULIS ATAU PEMEGANG HAK CIPTA DI SINI TETAP MEMILIKI HAK KEPEMILIKAN PENUH. PERANGKAT LUNAK INI DISEDIAKAN SEBAGAIMANA ADANYA, TANPA JAMINAN APAPUN, BAIK TERSURAT MAUPUN TERSIRAT, OLEH KARENA ITU JIKA TERJADI KERUSAKAN, KEHILANGAN, ATAU LAINNYA YANG TIMBUL DARI PENGGUNAAN ATAU URUSAN LAIN DALAM PERANGKAT LUNAK INI, PENULIS ATAU PEMEGANG HAK CIPTA TIDAK BERTANGGUNG JAWAB, KARENA PENGGUNAAN PERANGKAT LUNAK INI TIDAK DIPAKSAKAN SAMA SEKALI, SEHINGGA RISIKO ADALAH MILIK ANDA SENDIRI.
